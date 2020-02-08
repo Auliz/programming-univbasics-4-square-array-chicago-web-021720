@@ -1,6 +1,6 @@
 def square_array(array)
   i = 0;
-  while array[i] do 
+  while i < array.length do 
     new_array = []
     new_array << array[i] ** 2
     i += 1; 
