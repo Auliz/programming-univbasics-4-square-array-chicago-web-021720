@@ -3,6 +3,6 @@ def square_array(array)
   while i < array.length do 
     puts array[i] ** 2
     i += 1; 
-    print array[i]
+    p array[i]
     end 
 end 
