@@ -5,7 +5,8 @@ def square_array(array)
   while counter < array.length do 
     #new_array = []
     #new_array << array[counter] ** 2
-    p new_array = [array[counter] ** 2]
+    new_array = [array[counter] ** 2]
     counter += 1
+    p new_array
   end 
 end 
