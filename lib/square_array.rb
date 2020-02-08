@@ -1,9 +1,9 @@
 def square_array(array)
-  i = 0;
-  while i < array.length do 
+  counter = 0;
+  while counter < array.length do 
     new_array = []
-    new_array << array[i] ** 2
-    i += 1; 
+    new_array << array[counter] ** 2
+    counter += 1; 
   end 
   p new_array
 end 
