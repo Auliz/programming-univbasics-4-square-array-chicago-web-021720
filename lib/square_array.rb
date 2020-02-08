@@ -1,8 +1,8 @@
 def square_array(array)
   i = 0;
   while i < array.length do 
-    array[i] ** 2;
+    new_array = [array[i] ** 2]
     i += 1; 
-    array
+    new_array
   end 
 end 
