@@ -4,6 +4,6 @@ def square_array(array)
     new_array = []
     new_array.push(array[i] ** 2)
     i += 1; 
-    end 
-    p new_array[i]
+  end 
+    puts new_array
 end 
